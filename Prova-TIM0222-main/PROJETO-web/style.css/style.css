@@ -1,0 +1,358 @@
+#container {
+  border-top: 1px solid gray;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(165, 12, 12);
+  box-shadow: 0 2px 4px rgba(105, 93, 93, 0.3);
+  box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+/*logo da empresa*/
+.logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+
+header nav {
+  text-align: center;
+  background-image: url('images/logo.png');
+  padding: 0.1em;
+}  
+
+
+
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid white; /* adiciona uma linha branca embaixo da aba */
+}
+
+nav header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav li {
+  display: inline-block;
+  margin:  10px;
+}
+
+/*abas decoração delas*/
+header nav li a {
+  display: block;
+  padding: 10px 20px;
+  font-family:Georgia;
+  font-style: oblique;
+  font-size: 25px;
+  color: #d6d4d4;
+  outline: none
+}
+
+header nav li a:hover {
+  background-color: #666;
+}
+
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+   align-items: center;
+}
+
+.text {
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-justify: inter-word;
+  max-width: 800px;
+  margin: auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilizando as abas */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilizando as linhas em volta */
+
+
+footer {
+  padding: 40px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #666;
+}
+
+textarea {
+  max-width: 100%;
+  max-height: 150px;
+}
+
+#carouselExampleAutoplaying .carousel-item img {
+  height: 400px; /* Altura fixa do contêiner */
+  object-fit: cover; /* Redimensiona a imagem para caber no contêiner sem perder a proporção */
+}
+
+#carouselExampleAutoplaying .carousel-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.1); /* amplia a imagem em 10% */
+  transition: transform 0.60s; /* adiciona uma transição suave de 0.5 segundos */
+}
+
+
+/* logo redes sociais no footer*/
+footer {
+  background-color: rgb(51, 50, 50);
+  color: rgb(241, 241, 241);
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media-icons {
+  float: right;
+}
+
+.social-media-icons a img {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* logo redes sociais no header*/
+header .social-media-icons {
+  float: left;
+  margin-top: 40px;
+  margin-left: 80px;
+  
+}
+
+.social-media-icons a img {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.carousel-item:hover img {
+  filter: brightness(70%);
+  transition: filter 0.5s ease-in-out;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  font-size: 24px; /* altere o valor conforme necessário */
+  color: rgb(255, 255, 255);
+  font-family: Georgia;
+  text-shadow: 1px 1px 2px #000000;
+  justify-content: center
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input[type=text],
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+
+.form button[type=submit] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.posts {
+  margin: 20px 0;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.post p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0080ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0066cc;
+}
+
+
+
+
+canvas {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+
+
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
